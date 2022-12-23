@@ -1,0 +1,35 @@
+Examples of wrong variable name:
+
+- var $cat = ""   ($ is used by libraries).
+- var my-cat = "" (because of minus sign (-)).
+- var my cat = () (because of space)
+- var new = "" (new is a keyword).
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+what happen if i add number to a string?
+*it depends on what inside string:
+first example:
+var num = 9
+var str = "8"
+var sum = num + str
+console.log(sum)
+the output : "98"
+
+second example:
+var num = 2
+var str = "chicken"
+var sum = num + str
+console.log(sum)
+the output : NaN
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ 
+var x = ""
+#typeof x :string 
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+var y = "he is a coder"
+y[4] = s
+y.length = 14

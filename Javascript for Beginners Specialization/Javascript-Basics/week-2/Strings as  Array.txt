@@ -1,0 +1,9 @@
+#In javascript , a string can be treated like an array.
+
+example:
+var statement = "a string can be treated as an array" ;
+for (var i = 0 ; i < statement.length; i++){
+    console.log(statement[i] + "\n");
+}
+
+# it will print the whole letters in the console in sperated lines.

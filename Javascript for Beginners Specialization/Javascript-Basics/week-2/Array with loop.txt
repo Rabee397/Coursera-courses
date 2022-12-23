@@ -1,0 +1,8 @@
+example:
+var colors =["red", "white", "green"];
+for(i=0 ; i < colors.length ; i++){
+     console.log(colors[i]);
+}
+#so if you want to print all of the elements inside array ,don't count the numbers of it's elements, instead just type the
+name of array with . and length .
+-in previous example length of array = 3 , so i < colors.length == i < 3 .
