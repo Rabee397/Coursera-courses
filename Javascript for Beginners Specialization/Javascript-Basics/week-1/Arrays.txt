@@ -1,7 +1,0 @@
-#there are two basic ways to explicitly create an array in javascript.
-1. var colors = new Array("red","blue","green");
-2. var colors = ["red","blue","green"];
--they are the same.
-
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
