@@ -1,0 +1,7 @@
+#this loop is specifically for working with arrays
+example:
+var colors = ["red" , "blue" , "black"];
+for (var eachColor of colors){
+  console.log(eachColor)
+}
+-all the elemnts inside the array wiil be printed in the console.
