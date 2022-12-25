@@ -1,0 +1,21 @@
+#using backticks in javascript along with $() around your expressions allows you to embed them in your strings.
+
+example:
+var incrementor = 0;
+var text = "";
+while (incrementor < 10){
+     text += `The incrementor has gone up to ${incrementor} \n`;
+     incrementor++;
+}
+console.log(text);
+the output:
+The incrementor has gone up to 0
+The incrementor has gone up to 1
+The incrementor has gone up to 2
+The incrementor has gone up to 3
+The incrementor has gone up to 4
+The incrementor has gone up to 5
+The incrementor has gone up to 6
+The incrementor has gone up to 7
+The incrementor has gone up to 8
+The incrementor has gone up to 9
