@@ -1,0 +1,6 @@
+-Given the code below , what does the word 'evt' represent?
+document.getElementById('myform').addEventlistener('submit',function(evt){
+      evt.preventDefault();
+});
+
+-Here 'evt' represents the event object which has methods in Javascript that enable certain functionality.

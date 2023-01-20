@@ -1,0 +1,5 @@
+-ES6 (ES 2015) introduced two new ways to declare variables in Javascript . they both help minimize the chances that a 
+variable holds an unexpected value.
+
+-when you define a variable with const , it won't hold any other value than the one you gave it before.
+-let can change values , but it has block level scope.

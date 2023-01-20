@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>without var</title>
+</head>
+<body>
+    <p>ES5 , which came out in 2009 included this directive to help cut down on accidental declarations of variables without using the var keyword.</p>
+    <p>this code will give you error</p>
+
+    
+    <script>
+      "use strict";
+
+       newVar = "not properly declared";
+
+       console.log(newVar);
+    </script>
+</body>
+</html>

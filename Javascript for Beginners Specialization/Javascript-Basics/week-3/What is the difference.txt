@@ -1,0 +1,15 @@
+What are the differences between these two evennt handlers?
+
+1.document.getElementById("myform").onsubmit = process ;
+2.document.getElementById("myform").addEventListener("submit",process);
+
+First:
+An element can listen for more than one event when attached via the addEventListener method, but can only have one event 
+property on it at a time.
+
+second:
+The event listener can be removed via the removeEventListener method , whereas the event property can only be removed by
+replacing that event property with a different one.
+
+third:
+onsubmit is an event property ,and the addEventListener is a method.  

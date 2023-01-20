@@ -1,0 +1,4 @@
+-By default javascript hoists variables .this means you can use them before you specificlly declare them . this can lead 
+to unexpected results.you should declar your variable first. 
+
+-const & let are not hoisted . 

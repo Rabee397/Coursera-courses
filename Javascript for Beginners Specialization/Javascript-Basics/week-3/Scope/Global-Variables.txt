@@ -1,0 +1,13 @@
+#One of the most obvious ways to deal with the scope issues is to avoid using global scope as much as possible.
+
+-originally, Javascript was written with the idea that scripts would be very short , so scope was never going to be
+ a problem.
+
+-Javascript was originally going to be lightweight scripting langauage , not the full fledged general use programming
+langauage it has become.
+
+-it can be easy to write scripts that accidently change the value of a variable in the global scope, leading to difficult
+to troubleshoot bugs.(finding variables that hold unexpected values can be challenging and time consuming to troubleshoot).
+
+-if the page loads multiple scripts, variables in the global scope may collide.(it is common to include multiple scripts
+ written by different developers in one project).
