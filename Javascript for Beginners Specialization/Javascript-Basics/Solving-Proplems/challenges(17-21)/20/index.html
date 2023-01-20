@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Basic Challenges: Challenge 20</title>
+</head>
+<body>
+   <h1>JavaScript Basic Challenges</h1>
+   <h2>Challenge 20</h2>
+   <p style="color: blue;">question: For this challenge, change the src attribute for the first picture in the first article to:"http://meadpoint.net/images/xmasajax.jpg" Also 
+    add the class "blue" to all the paragraph in the second article.</p> 
+   <p style="color: blue;">second p</p>
+   <p style="color: blue;">third p </p>
+   <img src="" alt="">
+    <script>
+         var paragraphs = document.querySelectorAll("p");
+         (function (){
+           for(let i = 0 ; i < paragraphs.length ; i++){
+            paragraphs[i].className = "blue" ;
+           }
+         })()
+         
+         const image = document.querySelector("img");  
+         image.setAttribute("src","http://meadpoint.net/images/xmasajax.jpg");
+    </script>
+</body>
+</html>

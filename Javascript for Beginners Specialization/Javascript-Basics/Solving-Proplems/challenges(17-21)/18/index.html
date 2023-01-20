@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Basic Challenges: Challenge 18</title>
+</head>
+<body>
+   <h1>JavaScript Basic Challenges</h1>
+   <h2>Challenge 18</h2>
+   <p>question: For this challenge, get all the paragraphs on the page, assign them to a variable, then use that variable in a loop to set the style.color 
+    property to green.
+    </p>
+    <p>this is p</p>
+    <p>this is p</p>
+    <p>this is p</p>
+    <script>
+
+       //first solution 
+       var paragraphs = document.querySelectorAll("p") ;
+       function code(){
+        for(let i = 0 ; i <= 3 ; i++){
+            paragraphs[i].style.color = "green" ;
+        }
+       }
+       code()
+
+       //second-solution
+       function clr(){
+        for(let eachParagraphs of paragraphs){
+            eachParagraphs.style.color = "green"
+        }
+       }
+       clr()
+    </script>
+</body>
+</html>
